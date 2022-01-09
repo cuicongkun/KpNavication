@@ -1,0 +1,20 @@
+@import (reference) "@/assets/_variables.less";
+.navbar {
+  height: calc(100% -@header-height);
+  padding-top: @header-height;
+  .navbar-main {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: auto;
+    ul {
+        li {
+            a {
+                &.active {
+                    color: @primary-color;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+  }
+}
