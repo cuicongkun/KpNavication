@@ -1,20 +1,48 @@
 @import (reference) "@/assets/_variables.less";
+@import (reference) "@/assets/_mixins.less";
 .navbar {
   height: calc(100% -@header-height);
   padding-top: @header-height;
+  
   .navbar-main {
     background-color: #fff;
     height: 100%;
     overflow-y: auto;
-    ul {
-        li {
-            a {
-                &.active {
-                    color: @primary-color;
-                    font-weight: bold;
-                }
-            }
+    .navbar-title {
+      height: 50px;
+      line-height: 50px;
+      font-size: 14px;
+      padding-left: 30px;
+      border-bottom: 1px solid #f3f3f3;
+      font-weight: bold;
+      color: @primary-color;
+      position: relative;
+    }
+    .item {
+      width: 100%;
+      height: 44px;
+      a {
+        display: block;
+        width: 100%;
+        padding-left: 40px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 14px;
+        text-align: left;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f3f3f3;
+        &:hover {
+          color: #fff;
+          background-color: @secondary-color;
+          border-left: 4px solid @primary-color;
         }
+        &.active {
+          color: #fff;
+          background-color: @secondary-color;
+          border-left: 4px solid @primary-color;
+
+        }
+      }
     }
   }
 }
