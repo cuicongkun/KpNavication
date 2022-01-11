@@ -23,7 +23,7 @@ function Navbar(props: { bars: NavigationType }) {
   return (
     <div className="navbar">
       <div className="navbar-main">
-        <div className="navbar-title">老大您收藏前辈的杰作有{count}个了</div>
+        <div className="navbar-title">哥，您收藏的宝贝，有{count}个了</div>
         {listItems}
       </div>
     </div>
