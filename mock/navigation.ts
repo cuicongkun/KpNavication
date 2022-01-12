@@ -20,11 +20,15 @@ export const navigation: NavigationType = [
         url: "https://github.com/google/zx",
         desc: "可在JavaScript或TypeScript中编写简单的命令行脚本",
       },
-      
+      {
+        siteName: "超赞合集",
+        url: " https://asmcn.icopy.site/",
+        desc: "awesome 列表中文版",
+      },
     ],
   },
   {
-    id: 10001,
+    id: 10002,
     navName: "JavaScript",
     children: [
       {
@@ -60,7 +64,7 @@ export const navigation: NavigationType = [
     ],
   },
   {
-    id: 10002,
+    id: 10003,
     navName: "预编译工具",
     children: [
       {
@@ -80,7 +84,7 @@ export const navigation: NavigationType = [
     ],
   },
   {
-    id: 10003,
+    id: 10004,
     navName: "构建工具",
     children: [
       {
@@ -93,7 +97,7 @@ export const navigation: NavigationType = [
     ],
   },
   {
-    id: 10002,
+    id: 10005,
     navName: "程序设计语言",
     children: [
       {

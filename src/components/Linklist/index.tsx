@@ -9,7 +9,9 @@ function ChildrenItem(props: any) {
           window.open(item.url)
         }}>
           <div className="view">
-            <img src={item.logo} alt={item.siteName} />
+            {(item.logo?? '' !='') &&
+              <img src={item.logo} alt={item.siteName} />
+            }
             <h3>{item.siteName}</h3>
             <span className="version-tip">{item.version}</span>
           </div>
