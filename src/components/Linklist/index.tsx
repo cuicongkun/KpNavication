@@ -5,13 +5,17 @@ function ChildrenItem(props: any) {
   if (Array.isArray(thisChildren)) {
     const Temp = thisChildren.map((item, index) => {
       return (
-        <div key={index} className="block-children-item" onClick={() => {
-          window.open(item.url)
-        }}>
+        <div
+          key={index}
+          className="block-children-item"
+          onClick={() => {
+            window.open(item.url);
+          }}
+        >
           <div className="view">
-            {(item.logo?? '' !='') &&
+            {(item.logo ?? "" != "") && (
               <img src={item.logo} alt={item.siteName} />
-            }
+            )}
             <h3>{item.siteName}</h3>
             <span className="version-tip">{item.version}</span>
           </div>
@@ -25,9 +29,9 @@ function ChildrenItem(props: any) {
   }
 }
 function LinkGroup(props: any) {
-  const { item } = props;
+  const { item, index, barsIndex } = props;
   return (
-    <div className="block">
+    <div className={barsIndex == index ? "block active" : "block"}>
       <h2 id={item.id} className="block-name">
         {item.navName}
       </h2>
@@ -35,10 +39,17 @@ function LinkGroup(props: any) {
     </div>
   );
 }
-function Linklist(props: { list: NavigationType }) {
-  const { list } = props;
-  const listItems = list.map((item) => {
-    return <LinkGroup key={item.id} item={item} />;
+function Linklist(props: { list: NavigationType; barsIndex: number }) {
+  const { list, barsIndex } = props;
+  const listItems = list.map((item, index) => {
+    return (
+      <LinkGroup
+        key={item.id}
+        item={item}
+        index={index}
+        barsIndex={barsIndex}
+      />
+    );
   });
   return <div className="link-list">{listItems}</div>;
 }

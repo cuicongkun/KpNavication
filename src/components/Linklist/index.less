@@ -7,6 +7,10 @@
     padding-top: (@header-height / 2)-8px;
     margin-bottom: 15px;
     min-height: 20px;
+    border-radius: 5px;
+    &.active {
+      background-color: #fff;
+    }
     .block-name {
       position: absolute;
       top: -(@header-height + 18px);
@@ -20,14 +24,10 @@
     }
     .block-childern {
       padding: 15px;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
       .block-children-item {
-        width: 180px;
-        height: 85px;
+        min-width: 180px;
         margin: 5px;
         padding: 10px;
         border: 1px solid #e4ecf3;

@@ -1,11 +1,18 @@
 import "./index.less";
 import { NavigationType } from "@/types";
 
-import { useState } from "react";
-
-function Navbar(props: { bars: NavigationType }) {
-  const { bars } = props;
-  const [current, setCurrent] = useState(0);
+interface NavBarComponentType {
+  bars: NavigationType;
+  barsIndex: number;
+  navBarOk: (index: number) => void;
+}
+function Navbar(props: NavBarComponentType) {
+  const { bars, barsIndex, navBarOk } = props;
+  const navBarTap = (index: number) => {
+    return () => {
+      navBarOk(index);
+    };
+  };
   let count = 0;
   const listItems = bars.map((item, index) => {
     const itemCount = Array.isArray(item.children) ? item.children.length : 0;
@@ -13,9 +20,9 @@ function Navbar(props: { bars: NavigationType }) {
     return (
       <div key={item.id} className="item">
         <a
-          className={current == index ? "active" : ""}
+          className={barsIndex == index ? "active" : ""}
           href={`#${item.id}`}
-          onClick={() => setCurrent(index)}
+          onClick={navBarTap(index)}
         >{`${item.navName}(${itemCount})`}</a>
       </div>
     );

@@ -9,7 +9,7 @@ function Header() {
       <div className="header-nav">
         <ul>
           <li><a href="">回到博客</a></li>
-          <li><a href="">GitHub</a></li>
+          <li><a href="https://github.com/cuicongkun/navigation" target="_blank">GitHub</a></li>
         </ul>
       </div>
     </header>
