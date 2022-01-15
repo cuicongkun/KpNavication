@@ -8,22 +8,23 @@ interface NavBarComponentType {
 }
 function Navbar(props: NavBarComponentType) {
   const { bars, barsIndex, navBarOk } = props;
+  const barsKey = Object.keys(bars)
   const navBarTap = (index: number) => {
     return () => {
       navBarOk(index);
     };
   };
   let count = 0;
-  const listItems = bars.map((item, index) => {
-    const itemCount = Array.isArray(item.children) ? item.children.length : 0;
+  const listItems = barsKey.map((item, index) => {
+    const itemCount = 0;
     count += itemCount;
     return (
-      <div key={item.id} className="item">
+      <div key={index} className="item">
         <a
           className={barsIndex == index ? "active" : ""}
-          href={`#${item.id}`}
+          href={`#${item}`}
           onClick={navBarTap(index)}
-        >{`${item.navName}(${itemCount})`}</a>
+        >{`${item}(${itemCount})`}</a>
       </div>
     );
   });

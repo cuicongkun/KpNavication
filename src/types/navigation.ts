@@ -5,11 +5,4 @@ export type ChildrenType = {
   desc?: string;
   version?: string;
 };
-
-export type NavType = {
-  id: number;
-  navName: string;
-  url?: string;
-  children?: ChildrenType[];
-};
-export type NavigationType = NavType[];
+export type NavigationType=Record<string, ChildrenType[]>;

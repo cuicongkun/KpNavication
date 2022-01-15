@@ -29,23 +29,26 @@ function ChildrenItem(props: any) {
   }
 }
 function LinkGroup(props: any) {
-  const { item, index, barsIndex } = props;
+  const { title, children, index, barsIndex } = props;
+
   return (
     <div className={barsIndex == index ? "block active" : "block"}>
-      <h2 id={item.id} className="block-name">
-        {item.navName}
+      <h2 id={title} className="block-name">
+        {title}
       </h2>
-      <ChildrenItem thisChildren={item.children} />
+      <ChildrenItem thisChildren={children} />
     </div>
   );
 }
 function Linklist(props: { list: NavigationType; barsIndex: number }) {
   const { list, barsIndex } = props;
-  const listItems = list.map((item, index) => {
+  const lisyKey = Object.keys(list);
+  const listItems = lisyKey.map((title, index) => {
     return (
       <LinkGroup
-        key={item.id}
-        item={item}
+        key={index}
+        title={title}
+        children={list[title]}
         index={index}
         barsIndex={barsIndex}
       />
