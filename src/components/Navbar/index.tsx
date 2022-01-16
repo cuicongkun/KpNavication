@@ -16,7 +16,7 @@ function Navbar(props: NavBarComponentType) {
   };
   let count = 0;
   const listItems = barsKey.map((item, index) => {
-    const itemCount = 0;
+    const itemCount = bars[item].length;
     count += itemCount;
     return (
       <div key={index} className="item">

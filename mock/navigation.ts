@@ -28,12 +28,43 @@ export const navigation: NavigationType = {
       desc: "为你生成独一无二的虚拟头像",
     },
   ],
+  '渐进式 Web 应用': [
+    {
+      siteName: "MDN PWA",
+      logo: "https://developer.mozilla.org/favicon-48x48.97046865.png",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps",
+      desc: "PWA（Progressive Web Apps，渐进式 Web 应用）运用现代的 Web API 以及传统的渐进式增强策略来创建跨平台 Web 应用程序。这些应用无处不在、功能丰富，使其具有与原生应用相同的用户体验优势。这组文档和指南告诉您有关 PWA 的所有信息。",
+    },
+    {
+      siteName: "PWA Stats",
+      url: "https://www.pwastats.com/",
+      desc: "社区驱动的与渐进式Web应用相关的统计和新闻列表。",
+    },
+    {
+      siteName: "HNPWA",
+      logo: "https://hnpwa.com/assets/images/hnpwa-logo.png",
+      url: "https://hnpwa.com/",
+      desc: "Hacker News readers as Progressive Web Apps",
+    },
+    {
+      siteName: "PWABuilder",
+      logo: "https://www.pwabuilder.com/assets/images/header_logo.svg",
+      url: "https://www.pwabuilder.com/",
+      desc: "Ship your PWA to the app stores at lightning speed.",
+    },
+  ],
   'JavaScript': [
     {
       siteName: "阮一峰ES6教程",
       logo: "https://www.ruanyifeng.com/blog/images/person2_s.jpg",
       url: "https://es6.ruanyifeng.com/",
       desc: "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+    },
+    {
+      siteName: "chromedevtools",
+      logo: "https://chromedevtools.github.io/devtools-protocol/images/logo.png",
+      url: "https://chromedevtools.github.io/devtools-protocol/",
+      desc: "chrome浏览器chromedevtools调试工具说明",
     },
     
     {
