@@ -27,6 +27,17 @@ export const navigation: NavigationType = {
       url: "https://multiavatar.com/",
       desc: "为你生成独一无二的虚拟头像",
     },
+    {
+      siteName: "Regexper",
+      url: "https://regexper.com/",
+      desc: "正则验证表达式分析工具",
+    },
+    {
+      siteName: "Custom Elements Everywhere",
+      url: "https://custom-elements-everywhere.com/",
+      desc: "???有待研究",
+    },
+    
   ],
   '渐进式 Web 应用': [
     {
@@ -52,6 +63,12 @@ export const navigation: NavigationType = {
       url: "https://www.pwabuilder.com/",
       desc: "Ship your PWA to the app stores at lightning speed.",
     },
+    {
+      siteName: "Web Components",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/Web_Components",
+      desc: "Web Components 是一套不同的技术，允许您创建可重用的定制元素（它们的功能封装在您的代码之外）并且在您的web应用中使用它们。",
+    },
+    
   ],
   'JavaScript': [
     {
@@ -170,6 +187,12 @@ export const navigation: NavigationType = {
       url: "https://www.sitekc.com/login.jsp",
       desc: "专门针对企业网站建设的自助建站服务平台",
     },
-    
+  ],
+  '我们的宇宙': [
+    {
+      siteName: "八十华严",
+      url: "http://www.baus-ebs.org/sutra/jan-read/006/0279/",
+      desc: "了解宇宙真相的一本复杂的书",
+    },
   ]
 };
