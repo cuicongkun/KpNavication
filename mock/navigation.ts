@@ -37,6 +37,13 @@ export const navigation: NavigationType = {
       url: "https://custom-elements-everywhere.com/",
       desc: "???有待研究",
     },
+    {
+      siteName: "Vue SFC Playground",
+      logo: "https://v3.cn.vuejs.org/logo.png",
+      url: "https://sfc.vuejs.org/",
+      desc: "SFC 工具在线演练场",
+    },
+    
     
   ],
   '渐进式 Web 应用': [
@@ -149,7 +156,13 @@ export const navigation: NavigationType = {
       logo: "https://chromedevtools.github.io/devtools-protocol/images/logo.png",
       url: "https://chromedevtools.github.io/devtools-protocol/",
       desc: "chrome浏览器chromedevtools调试工具说明",
+    },
+    {
+      siteName: "classnames",
+      url: "https://github.com/JedWatson/classnames",
+      desc: "react官方推荐的classnames库",
     }
+    
   ],
   
   
