@@ -1,6 +1,6 @@
 import { NavigationType } from "../src/types";
 export const navigation: NavigationType = {
-  '便捷工具': [
+  便捷工具: [
     {
       siteName: "Can I use",
       url: "https://caniuse.com/",
@@ -12,7 +12,7 @@ export const navigation: NavigationType = {
       desc: "学术党必备的谷歌学术镜像网站，可以直接访问，与谷歌学术一样。",
     },
     {
-      siteName: "zx",
+      siteName: "zx1",
       url: "https://github.com/google/zx",
       desc: "可在JavaScript或TypeScript中编写简单的命令行脚本",
     },
@@ -23,7 +23,7 @@ export const navigation: NavigationType = {
     },
     {
       siteName: "Multiavatar",
-      logo: 'https://multiavatar.com/img/logo-animated.gif?v=003',
+      logo: "https://multiavatar.com/img/logo-animated.gif?v=003",
       url: "https://multiavatar.com/",
       desc: "为你生成独一无二的虚拟头像",
     },
@@ -43,10 +43,8 @@ export const navigation: NavigationType = {
       url: "https://sfc.vuejs.org/",
       desc: "SFC 工具在线演练场",
     },
-    
-    
   ],
-  '渐进式 Web 应用': [
+  "渐进式 Web 应用": [
     {
       siteName: "MDN PWA",
       logo: "https://developer.mozilla.org/favicon-48x48.97046865.png",
@@ -75,9 +73,8 @@ export const navigation: NavigationType = {
       url: "https://developer.mozilla.org/zh-CN/docs/Web/Web_Components",
       desc: "Web Components 是一套不同的技术，允许您创建可重用的定制元素（它们的功能封装在您的代码之外）并且在您的web应用中使用它们。",
     },
-    
   ],
-  'JavaScript': [
+  JavaScript: [
     {
       siteName: "React",
       logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -110,13 +107,13 @@ export const navigation: NavigationType = {
       siteName: "Nestjs",
       logo: "https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg",
       url: "https://nestjs.com/",
-      desc: "A progressive Node.js framework for building efficient, reliable and scalable server-side applications."
+      desc: "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
     },
     {
       siteName: "nextjs",
       logo: "https://nextjs.org/static/favicon/favicon-32x32.png",
       url: "https://nextjs.org/",
-      desc: "The React Frameworkfor Production"
+      desc: "The React Frameworkfor Production",
     },
     {
       siteName: "Lodash ",
@@ -143,7 +140,7 @@ export const navigation: NavigationType = {
       siteName: "algolia",
       logo: "https://www.algolia.com/algoliaweb-static-favicons/favicon-32x32.png",
       url: "https://www.algolia.com/",
-      desc: "托管式搜索API"
+      desc: "托管式搜索API",
     },
     {
       siteName: "阮一峰ES6教程",
@@ -161,12 +158,10 @@ export const navigation: NavigationType = {
       siteName: "classnames",
       url: "https://github.com/JedWatson/classnames",
       desc: "react官方推荐的classnames库",
-    }
-    
+    },
   ],
-  
-  
-  '预编译工具': [
+
+  预编译工具: [
     {
       siteName: "TypeScript",
       logo: "https://typescript.bootcss.com/images/typescript-icon.svg",
@@ -182,7 +177,7 @@ export const navigation: NavigationType = {
       version: "LibSass",
     },
   ],
-  '构建工具': [
+  构建工具: [
     {
       siteName: "Vite",
       logo: "https://vitejs.cn/logo.svg",
@@ -203,18 +198,17 @@ export const navigation: NavigationType = {
       url: "https://yarnpkg.com/",
       desc: "Safe, stable, reproducible projects",
     },
-    
   ],
-  '程序设计语言': [
+  程序设计语言: [
     {
       siteName: "Rust",
       logo: "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
       url: "https://www.rust-lang.org/zh-CN/",
       desc: "一门赋予每个人构建可靠且高效软件能力的语言。",
       version: "v1.57.0",
-    }
+    },
   ],
-  '工作&赚钱':  [
+  "工作&赚钱": [
     {
       siteName: "电鸭",
       logo: "https://eleduck.com/static/icon-500.png",
@@ -228,11 +222,11 @@ export const navigation: NavigationType = {
       desc: "专门针对企业网站建设的自助建站服务平台",
     },
   ],
-  '我们的宇宙': [
+  我们的宇宙: [
     {
       siteName: "八十华严",
       url: "http://www.baus-ebs.org/sutra/jan-read/006/0279/",
       desc: "了解宇宙真相的一本复杂的书",
     },
-  ]
+  ],
 };
