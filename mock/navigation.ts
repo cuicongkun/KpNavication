@@ -4,7 +4,7 @@ export const navigation: NavigationType = {
     {
       siteName: "Can I use",
       url: "https://caniuse.com/",
-      desc: "Caniuse用于查看浏览器对各种新特性的兼容情况。",
+      desc: "Caniuse用于查看浏览器对各种新特性的兼2容情况。",
     },
     {
       siteName: "Mirror List",
