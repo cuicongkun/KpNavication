@@ -2,6 +2,11 @@ import { NavigationType } from "../src/types";
 export const navigation: NavigationType = {
   便捷工具: [
     {
+      siteName: "QuickType",
+      url: "https://app.quicktype.io/?l=ts",
+      desc: "instantly parse JSON in any language",
+    },
+    {
       siteName: "Can I use",
       url: "https://caniuse.com/",
       desc: "Caniuse用于查看浏览器对各种新特性的兼容情况。",
@@ -43,13 +48,27 @@ export const navigation: NavigationType = {
       url: "https://sfc.vuejs.org/",
       desc: "SFC 工具在线演练场",
     },
-  ],
-  "渐进式 Web 应用": [
     {
-      siteName: "MDN PWA",
-      logo: "https://developer.mozilla.org/favicon-48x48.97046865.png",
-      url: "https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps",
-      desc: "PWA（Progressive Web Apps，渐进式 Web 应用）运用现代的 Web API 以及传统的渐进式增强策略来创建跨平台 Web 应用程序。这些应用无处不在、功能丰富，使其具有与原生应用相同的用户体验优势。这组文档和指南告诉您有关 PWA 的所有信息。",
+      siteName: "在线PS",
+      url: "https://ps.gaoding.com/#/",
+    },
+  ],
+  PWA: [
+    {
+      siteName: "Anicons",
+      url: "https://typogram.github.io/Anicons/index.html",
+      desc: "icon fonts with baked-in animation and colors",
+    },
+    {
+      siteName: "WebDev",
+      logo: "https://web.dev/images/favicon-32x32.png",
+      url: "https://web.dev/",
+      desc: "Resources for Developers by Developers",
+    },
+    {
+      siteName: "MDN",
+      url: "https://developer.mozilla.org/zh-CN/",
+      desc: "Resources for Developers by Developers",
     },
     {
       siteName: "PWA Stats",
@@ -58,7 +77,6 @@ export const navigation: NavigationType = {
     },
     {
       siteName: "HNPWA",
-      logo: "https://hnpwa.com/assets/images/hnpwa-logo.png",
       url: "https://hnpwa.com/",
       desc: "Hacker News readers as Progressive Web Apps",
     },
@@ -75,6 +93,20 @@ export const navigation: NavigationType = {
     },
   ],
   JavaScript: [
+    {
+      siteName: "Vue",
+      logo: "https://v3.cn.vuejs.org/logo.png",
+      url: "https://vuejs.org/",
+      desc: "The Progressive JavaScript Framework",
+      version: "v3.2",
+    },
+    {
+      siteName: "Rxjs",
+      logo: "https://rxjs.dev/assets/images/favicons/favicon.ico",
+      url: "https://rxjs.dev/",
+      desc: "RxJS is a library for composing asynchronous and event-based programs by using observable sequences. ",
+      version: "v7.1.0",
+    },
     {
       siteName: "React",
       logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -121,13 +153,6 @@ export const navigation: NavigationType = {
       url: "https://lodash.com/",
       desc: "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。",
       version: "v4.17.15",
-    },
-    {
-      siteName: "Vue",
-      logo: "https://v3.cn.vuejs.org/logo.png",
-      url: "https://v3.cn.vuejs.org/",
-      desc: "渐进式JavaScript 框架",
-      version: "v3",
     },
     {
       siteName: "VuePress",
@@ -178,6 +203,11 @@ export const navigation: NavigationType = {
     },
   ],
   构建工具: [
+    {
+      siteName: "esbuild",
+      desc: "An extremely fast JavaScript bundler",
+      url: "https://esbuild.github.io/",
+    },
     {
       siteName: "Vite",
       logo: "https://vitejs.cn/logo.svg",

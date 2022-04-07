@@ -24,10 +24,13 @@
     }
     .block-childern {
       padding: 15px;
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
       .block-children-item {
         min-width: 180px;
+        flex: auto;
         margin: 5px;
         padding: 10px;
         border: 1px solid #e4ecf3;
