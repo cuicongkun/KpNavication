@@ -1,5 +1,12 @@
 import { NavigationType } from "../src/types";
 export const navigation: NavigationType = {
+  游戏开发: [
+    {
+      siteName: "The HTML5 Creation Engine",
+      desc: "The HTML5 Creation Engine",
+      url: "https://pixijs.com/",
+    },
+  ],
   便捷工具: [
     {
       siteName: "QuickType",
@@ -40,7 +47,7 @@ export const navigation: NavigationType = {
     {
       siteName: "Custom Elements Everywhere",
       url: "https://custom-elements-everywhere.com/",
-      desc: "???有待研究",
+      desc: "Making sure frameworks and custom elements can be BFFs ",
     },
     {
       siteName: "Vue SFC Playground",
