@@ -2,9 +2,59 @@ import { NavigationType } from "../src/types";
 export const navigation: NavigationType = {
   游戏开发: [
     {
-      siteName: "The HTML5 Creation Engine",
+      siteName: "cocos",
+      url: "https://www.cocos.com/",
+    },
+    {
+      siteName: "Unity",
+      desc: "Unity 是行业领先的实时3D开发平台，还提供更多解决方案。从绝妙创意到大获成功，探索可为游戏开发生命周期的每个阶段提供帮助的解决方案",
+      url: "https://unity.cn/",
+    },
+    {
+      siteName: "PixiJs",
       desc: "The HTML5 Creation Engine",
       url: "https://pixijs.com/",
+    },
+    {
+      siteName: "babylon.js",
+      url: "https://www.babylonjs.com/",
+    },
+    {
+      siteName: "three.js",
+      url: "https://threejs.org/",
+    },
+    {
+      siteName: "howlerjs",
+      url: "https://howlerjs.com/",
+    },
+    {
+      siteName: "phaser",
+      url: "https://phaser.io/",
+    },
+  ],
+  跨平台开发: [
+    {
+      siteName: "Ionic",
+      url: "https://ionicframework.com/",
+      desc: "One codebase. Any platform.",
+    },
+    {
+      siteName: "ELECTRON",
+      url: "https://www.electronjs.org/",
+      desc: "使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序",
+    },
+    {
+      siteName: "React Native",
+      logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      url: "https://reactnative.dev/",
+      desc: "以React为基础构建移动端应用的跨平台解决方案!",
+      version: "v0.66",
+    },
+    {
+      siteName: "cordova",
+      logo: "https://cordova.apache.org/static/img/cordova_bot.png",
+      url: "https://cordova.apache.org/",
+      desc: "Mobile apps with HTML, CSS & JS",
     },
   ],
   便捷工具: [
@@ -122,13 +172,6 @@ export const navigation: NavigationType = {
       version: "v17.0.2",
     },
     {
-      siteName: "React Native",
-      logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      url: "https://reactnative.dev/",
-      desc: "以React为基础构建移动端应用的跨平台解决方案!",
-      version: "v0.66",
-    },
-    {
       siteName: "React Router",
       logo: "/logo_with/react_router.png",
       url: "https://reactrouter.com/",
@@ -194,6 +237,11 @@ export const navigation: NavigationType = {
   ],
 
   预编译工具: [
+    {
+      siteName: "Eslint",
+      url: "https://eslint.org/",
+      desc: "Find and fix problems in your JavaScript code",
+    },
     {
       siteName: "TypeScript",
       logo: "https://typescript.bootcss.com/images/typescript-icon.svg",
